@@ -28,15 +28,15 @@ This online application was developed so users may keep track of their spending 
 
 ```
 1.The users should be able to login
-2. From the login they should be able to navigate to their dashboard.
+2.From the login they should be able to navigate to their dashboard.
 
 ```
 
 ## Overview
 
-* [Repo Codes]()
+* [Repo Codes](https://github.com/ijayhub/Expense-Management-App)
 
-* [Hosted Link]()
+* [Hosted Link](https://managementexpenses.netlify.app)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
