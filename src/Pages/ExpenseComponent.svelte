@@ -16,7 +16,8 @@
 	// variable
 	let expenses = [...expensesData]
 	let item=expenses
-	localStorage.setItem("expenses",item)
+	//localstorage
+	localStorage.setItem("expensesData",[])
 	// console.log(expenses)
 	let name = ""
 	let amount = ""
