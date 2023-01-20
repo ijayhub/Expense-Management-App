@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-<h1  align="center" >Expense Tracker App</h1>
+<h1  align="center" >Expense Budget App</h1>
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>

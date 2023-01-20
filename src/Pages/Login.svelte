@@ -16,7 +16,7 @@
     <input type="email" id="email" required bind:value={email} />
     <label for="password">Password</label>
     <input type="password" id="password" required bind:value={password} />
-    <Link to="/ExpenseComponenet">
+    <Link to="/expensecomponenet">
       <Button>Login</Button>
     </Link>
     <div class="not-registered">
@@ -74,4 +74,5 @@
       color:green;
       font-weight: 700;
     }
+    
 </style> 

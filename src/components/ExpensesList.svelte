@@ -11,7 +11,7 @@
     <h2>Expenses List</h2>
     <ul >
         {#each expenses as expense (expense.id)}
-        <div out:fade|local  animate:flip={{duration:500}}>
+        <div out:fade|local>
             <ExpenseDetails {...expense} {handleDelete}/> 
         </div>
             

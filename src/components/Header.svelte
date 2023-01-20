@@ -13,7 +13,7 @@
         <BudgetForm  on:addExpense/>
     </Modal>
     <div class="calculator-container">
-        <span class="budget">Expense Tracker App</span>
+        <span class="budget">Expense Budget App</span>
         <div>
             <button class="expense" on:click={toggleModal}>
                 <img src="../../img/plus-square (2).svg" alt="plus"/>

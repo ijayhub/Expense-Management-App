@@ -1,14 +1,13 @@
 <script>
 	import { Link } from 'svelte-navigator';
-
+	// import useLocalStorage from '../Localstorage/useLocalStorage'
+	//localstorage
 	// components
 	import ExpensesList from '../components/ExpensesList.svelte';
 	import Header from "../components/Header.svelte";
 	import Total from "../components/Total.svelte"
-
 	// data
 	import expensesData from '../expenses'
-
 	// reactive value
 	$:total=expenses.reduce((previous, current )=>{
 		return  previous += current.amount
@@ -16,13 +15,16 @@
 	// variable
 	let expenses = [...expensesData]
 	let item=expenses
-	//localstorage
-	localStorage.setItem("expensesData",[])
-	// console.log(expenses)
-	let name = ""
-	let amount = ""
 	export let showModal = false
+	//localstorage
+	let storedValue;
 
+	// onMount(() => {
+	// 	storedValue = localStorage.getItem('expenses');
+	// });
+	// function saveValue() {
+    // localStorage.setItem('expenses', expenses);
+	// }
 	// function for a delete handler
 	const handleDelete=(id) => {
 		expenses=expenses.filter((item)=>item.id !== id)
@@ -44,7 +46,7 @@
 
 <main>
 	<Total {total}/>
-	<ExpensesList  {expenses} {handleDelete} />
+	<ExpensesList  {expenses} {handleDelete}/>
 	<div>
         <button type="button" class="btn-expense" on:click={clearExpenses}>Clear Expenses</button>
 	</div>

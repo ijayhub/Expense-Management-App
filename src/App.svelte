@@ -5,8 +5,8 @@
 	import Signup from './Pages/Signup.svelte';
 </script>
 
+
 <main>
-	
 	<Router>
 		<Route path="/">
 			<Login/>

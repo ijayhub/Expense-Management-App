@@ -3,7 +3,7 @@
 </script>
 
 <div>
-    <h2> Total Expenses : $ {total} </h2>
+    <h2> Total Expenses : # {total} </h2>
 </div>
 
 <style>
